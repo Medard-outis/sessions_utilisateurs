@@ -39,7 +39,7 @@ public class DashboardController {
     private void handleLogout(ActionEvent event) {
         UserSession.clearSession();
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("/com/example/session/views/Login.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/com/example/sessions_utilisateur/views/Login.fxml"));
             Stage stage = (Stage) logoutButton.getScene().getWindow();
             stage.setScene(new Scene(root));
         } catch (Exception e) {

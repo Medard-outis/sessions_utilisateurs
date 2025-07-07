@@ -12,8 +12,8 @@ public class MainApp extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         DatabaseInitializer.initialize();
-        Parent root = FXMLLoader.load(getClass().getResource("/com/example/session/views/Login.fxml"));
-        primaryStage.setTitle("JavaFX Session Example");
+        Parent root = FXMLLoader.load(getClass().getResource("/com/example/sessions_utilisateur/views/Login.fxml"));
+        primaryStage.setTitle("JavaFX Sessions_utilisateur Example");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }

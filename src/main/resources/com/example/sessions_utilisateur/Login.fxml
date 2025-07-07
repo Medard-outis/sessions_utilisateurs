@@ -2,7 +2,7 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.session.LoginController" spacing="10" alignment="CENTER" prefWidth="300" prefHeight="200">
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.sessions_utilisateur.LoginController" spacing="10" alignment="CENTER" prefWidth="300" prefHeight="200">
     <padding>
         <Insets top="20" right="20" bottom="20" left="20"/>
     </padding>

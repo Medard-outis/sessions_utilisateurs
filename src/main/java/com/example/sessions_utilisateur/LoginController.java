@@ -50,7 +50,7 @@ public class LoginController {
 
     private void openDashboard() {
         try {
-            Parent root = FXMLLoader.load(getClass().getResource("/com/example/session/views/Dashboard.fxml"));
+            Parent root = FXMLLoader.load(getClass().getResource("/com/example/sessions_utilisateur/views/Dashboard.fxml"));
             Stage stage = (Stage) loginButton.getScene().getWindow();
             stage.setScene(new Scene(root));
         } catch (Exception e) {
