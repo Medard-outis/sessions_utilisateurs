@@ -3,6 +3,7 @@ module com.example.sessions_utilisateur {
     requires javafx.fxml;
 
     requires org.kordamp.bootstrapfx.core;
+    requires java.sql;
 
     opens com.example.sessions_utilisateur to javafx.fxml;
     exports com.example.sessions_utilisateur;
